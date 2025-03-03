@@ -2,26 +2,6 @@
 
 import os
 
-#Program untuk menghitung luas dan keliling persegi panjang
-
-#membuat header program
-# os.system("cls")
-# print(f"{"PROGRAM MENGHITUNG LUAS":^40}")
-# print(f"{"DAN KELILING PERSEGI PANJANG":^40}")
-# print(f"{40*'='}")
-
-# #Mengambil input user
-# LEBAR = int(input("Masukkan nilai lebar ")) 
-# PANJANG = int(input("Masukkan nilai panjang "))
-
-# #Program menghitung luas
-# LUAS = LEBAR * PANJANG
-# KELILING = 2*(PANJANG+LEBAR)
-
-# #Tampilkan hasil
-# print(f"Hasil perhitungan luas = {LUAS} ")
-# print(f"Hasil perhitungan keliling = {KELILING} ")
-
 def header():
     '''fungsi header'''
     os.system("cls")
@@ -61,7 +41,7 @@ while True:
     elif opsi == "2":
         display("keliling", KELILING)
     else:
-        print("Kan 1 atau 2 Begooooooo!!!!!")
+        print("Kan 1 atau 2 bro!!!!!")
 
     isContinue = input("Apakah lanjut? (y/n)")
     if isContinue == "n":
